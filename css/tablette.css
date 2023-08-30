@@ -1,0 +1,44 @@
+@media screen and (min-width: 768px) and (max-width: 991px) 
+{
+
+
+
+/* filtre */
+
+
+.boutonsfiltre {
+    flex-wrap: wrap;
+}
+
+
+/*mise en page section 2*/
+
+.section2 {
+    flex-direction: column-reverse;
+    gap: unset;
+}
+
+/*hergement à marseille*/
+
+.hebergements {
+    background-color: unset;
+    width: 100%;
+    gap: 20px;
+}
+
+/*aside plus populaire*/
+.plus_pop {
+    border-radius: 0;
+}
+
+.cartes_populaires{
+    flex: unset;
+    width: 100%; 
+    gap: 20px;   
+}
+    
+.carte_pop {
+    height: 160px;
+}
+
+}
